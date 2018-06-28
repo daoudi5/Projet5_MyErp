@@ -220,12 +220,7 @@
                 <scope>compile</scope>
             </dependency>
             <!-- spring-jdbc : commons-exceptions, datasource management -->
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-jdbc</artifactId>
-                <version>${spring.version}</version>
-                <scope>compile</scope>
-            </dependency>
+           
 
             <!-- ===== Database ===== -->
             <!-- DB Connection pool -->
@@ -235,18 +230,18 @@
                 <version>2.1.1</version>
             </dependency>
             <!-- JDBC Drivers : PostgreSQL -->
-            <dependency>
-                <groupId>org.postgresql</groupId>
-                <artifactId>postgresql</artifactId>
-                <version>9.4.1212</version>
-                <scope>runtime</scope>
-            </dependency>
+           
             
-<dependency>
-  <groupId>org.springframework</groupId>
-  <artifactId>spring-jdbc</artifactId>
-  <version>4.0.0.RELEASE</version>
-</dependency>
+         <dependency>
+                   <groupId>org.postgresql</groupId>
+                  <artifactId>postgresql</artifactId>
+                  <version>9.4-1201-jdbc4</version>
+         </dependency>
+         <dependency>
+                    <groupId>org.springframework</groupId>
+                   <artifactId>spring-jdbc</artifactId>
+                  <version>4.0.0.RELEASE</version>
+         </dependency>
                  
                  
 
