@@ -241,6 +241,14 @@
                 <version>9.4.1212</version>
                 <scope>runtime</scope>
             </dependency>
+            
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-jdbc</artifactId>
+  <version>4.0.0.RELEASE</version>
+</dependency>
+                 
+                 
 
             <!-- ===== Test unitaires ===== -->
             <dependency>
