@@ -26,7 +26,7 @@ public class ComptabiliteDaoImplTest extends ConsumerTestCase {
     // ==================== CompteComptable - GET ====================
 
     @Test
-    public void getListCompteComptable() {
+    public void getListCompteComptable() throws Exception{
         Class.forName("org.postgresql.Driver");
         List<CompteComptable> vList = dao.getListCompteComptable();
         assertEquals(7, vList.size());
