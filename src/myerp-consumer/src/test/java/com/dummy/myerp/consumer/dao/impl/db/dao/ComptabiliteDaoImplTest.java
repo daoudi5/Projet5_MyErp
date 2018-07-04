@@ -27,7 +27,7 @@ public class ComptabiliteDaoImplTest extends ConsumerTestCase {
 
     @Test
     public void getListCompteComptable() throws Exception{
-        Class.forName("org.postgresql.Driver");
+        //Class.forName("org.postgresql.Driver");
         List<CompteComptable> vList = dao.getListCompteComptable();
         assertEquals(7, vList.size());
     }
@@ -37,7 +37,7 @@ public class ComptabiliteDaoImplTest extends ConsumerTestCase {
 
     @Test
     public void getListJournalComptable() {
-        Class.forName("org.postgresql.Driver");
+        //Class.forName("org.postgresql.Driver");
         List<JournalComptable> vList = dao.getListJournalComptable();
         assertEquals(4, vList.size());
     }
@@ -47,7 +47,7 @@ public class ComptabiliteDaoImplTest extends ConsumerTestCase {
 
     @Test
     public void getListEcritureComptable() {
-        Class.forName("org.postgresql.Driver");
+        //Class.forName("org.postgresql.Driver");
         List<EcritureComptable> vList = dao.getListEcritureComptable();
         assertEquals(11, vList.size());
     }
